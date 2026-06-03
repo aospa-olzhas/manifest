@@ -48,8 +48,13 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <remote  name="aospa-olzhas"
+           fetch="https://github.com/aospa-olzhas"
+           revision="beryl" />
+           
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
+  <include name="forks.xml"/>
 
 </manifest>
