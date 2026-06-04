@@ -17,6 +17,10 @@
   <remove-project name="AOSPA/manifest" />
   <project path="manifest" name="manifest" remote="aospa-olzhas" />
   
+  <!-- System -->
+  <remove-project name="platform/system/bpf" />
+  <project path="system/bpf" name="android_system_bpf" remote="aospa-olzhas" />
+  
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_aospa" />
   <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-olzhas" >
