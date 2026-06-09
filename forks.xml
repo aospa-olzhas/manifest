@@ -28,5 +28,9 @@
   </project>
   <remove-project name="proprietary_vendor_qcom_common" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa-olzhas" />
-  
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="aospa-olzhas" />
+
 </manifest>
